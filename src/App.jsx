@@ -1,11 +1,13 @@
 import { Fragment } from "react";
 import Navbar from "./components/Navbar/Navbar";
-import "font-awesome/css/font-awesome.min.css";
+import Home from "./components/Home/Home";
+
 
 const App = () => {
   return (
     <Fragment>
       <Navbar />
+      <Home/>
     </Fragment>
   );
 };
