@@ -1,24 +1,57 @@
+@use "../../styles/vars.scss" as *;
 .home {
-
-  img {
-    width: 50vw;
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  background-color: $main_bg;
+  .developer-photo {
+    width: 40vw;
     height: 100vh;
+    background-color: $dark_blue;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    display: flex;
+    justify-content: center;
+    img {
+      width: 40vw;
+      height: 100vh;
+    }
   }
 
   .developer-details {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 0 auto;
+    align-items: center;
+
     .developer-info {
-    }
-
-    .developer-contacts {
-
-      .linked-in{
-
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      color: $titles_color;
+      h2 {
+        font-size: 5rem;
       }
-      .github{
-
+      h3 {
+        font-size: 4rem;
       }
-      .facebook{
+      h4 {
+        font-size: 3rem;
+        text-align: center;
+        span {
+          color: $dark_blue;
+        }
+       
+      }
 
+      .developer-contacts {
+        .linked-in {
+        }
+        .github {
+        }
+        .facebook {
+        }
       }
     }
   }
