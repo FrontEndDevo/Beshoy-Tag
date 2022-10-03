@@ -4,17 +4,18 @@
   align-items: center;
   gap: 6rem;
   background-color: $main_bg;
+
   .developer-photo {
     width: 40vw;
     height: 100vh;
-    background-color: $dark_blue;
+    background-color: $dark_teal;
     border-top-right-radius: 30%;
     border-bottom-right-radius: 30%;
     display: flex;
     justify-content: center;
-    img {
-      width: 40vw;
-      height: 100vh;
+    img{
+    user-select: none;
+    -webkit-user-drag: none;
     }
   }
 
@@ -34,23 +35,47 @@
         font-size: 5rem;
       }
       h3 {
-        font-size: 4rem;
+        font-size: 3rem;
       }
       h4 {
         font-size: 3rem;
-        text-align: center;
+        font-weight: 900;
         span {
-          color: $dark_blue;
+          color: $light_teal;
         }
-       
+      }
+    }
+
+    .developer-contacts {
+      display: flex;
+      gap: 3rem;
+      font-size: 4rem;
+
+      .linked-in,
+      .facebook,
+      .github {
+        transition: $main_transition;
+        cursor: pointer;
       }
 
-      .developer-contacts {
-        .linked-in {
+      .linked-in {
+        color: #0077b5;
+        &:hover {
+          color: #00a0dc;
         }
-        .github {
+      }
+
+      .github {
+        color: #212121;
+        &:hover {
+          color: #424242;
         }
-        .facebook {
+      }
+
+      .facebook {
+        color: #1565C0;
+        &:hover {
+          color: #1E88E5;
         }
       }
     }
