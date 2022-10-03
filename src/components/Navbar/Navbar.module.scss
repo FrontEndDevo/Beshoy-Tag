@@ -1,33 +1,41 @@
-.navbar{
+@use "../../styles/vars" as *;
+.navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  color: white;
-  background-color: black;
-  padding: 1rem;
+  color: $titles_light_color;
+  background-color: transparent;
+  padding: 2rem 0;
+  position: fixed;
+  width: 100vw;
 
-
-  .title{
+  .title {
     font-size: 1.5rem;
     font-weight: bold;
   }
 
-  .nav-links{
-  ul{
-    display: flex;
-    gap: 4rem;
+  .nav-links {
+    ul {
+      display: flex;
+      gap: 3rem;
 
-    a{
-      color: white;
-      text-decoration: none;
-      background-color: blue;
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
-      
+      a {
+        color: #52565e;
+        font-size: 1.5rem;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        transition: $main_transition;
+
+        &:hover {
+          color: $titles_dark_color;
+          font-weight: bold;
+        }
+      }
     }
-  }    
-    .class-active{
-
+    .class-active {
+      font-weight: bold;
+      color: $titles_dark_color;
     }
   }
 }
