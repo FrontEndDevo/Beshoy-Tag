@@ -16,8 +16,8 @@ const MAIN_TITLES = [
   "Bootstrap5",
   "SASS",
   "Javascript",
-  "Typescript",
   "Reactjs",
+  "Typescript",
   "Git & Github",
 ];
 
@@ -28,8 +28,8 @@ const MAIN_TECHNOLOGIES = [
   bootsrap,
   sass,
   javascript,
-  typescript,
   react,
+  typescript,
   github,
 ];
 

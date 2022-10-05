@@ -26,7 +26,7 @@ const Home = () => {
       showCursor: true,
       startDelay: 500,
       backDelay: 1000,
-      strings: ["Front-End", "Web Developer"],
+      strings: ["Front-End", "React Developer", "Web Developer"],
     });
   }, []);
 
