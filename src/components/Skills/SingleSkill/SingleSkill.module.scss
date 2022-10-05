@@ -3,17 +3,29 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 0.5rem 1rem;
+  padding: 0.7rem 1.2rem;
   border-radius: 8px;
-  color: $light_dark;
+  color: $light_color;
   font-size: 1.3rem;
   font-weight: 600;
   font-style: italic;
-  background-image: linear-gradient(180deg, #52acff 25%, #ffe32c 100%);
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  
+  border: 2px solid $light_blue;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background-image: linear-gradient(135deg, #65fdf0 10%, #1d6fa3 100%);
+
+  &:hover {
+    animation: tech-rotate 3s ease-in-out;
+  }
   img {
     width: 125px;
     height: 125px;
+    margin-bottom: 5px;
+  }
+}
+
+@keyframes tech-rotate {
+  100% {
+    transform: rotate(3600deg);
   }
 }
