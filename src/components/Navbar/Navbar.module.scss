@@ -1,4 +1,6 @@
 @use "../../styles/vars" as *;
+@use "../../styles/mixins" as *;
+
 .navbar {
   display: flex;
   justify-content: space-evenly;
@@ -15,7 +17,7 @@
 
   .title {
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 900;
     user-select: none;
   }
 
@@ -41,6 +43,42 @@
     .class-active {
       font-weight: bold;
       color: $light_dark;
+    }
+  }
+
+  @include responsive(tablet) {
+    border-radius: 0;
+    .title {
+      font-size: 1.5rem;
+    }
+
+    .nav-links {
+      ul {
+        gap: 1rem;
+
+        a {
+          font-size: 1.3rem;
+          padding: 0.3rem 0.5rem;
+        }
+      }
+    }
+  }
+
+  @include responsive(mobile) {
+    border-radius: 0;
+    .title {
+      font-size: 0.8rem;
+    }
+
+    .nav-links {
+      ul {
+        gap: 0.5rem;
+
+        a {
+          font-size: 0.6rem;
+          padding: 0.3rem 0.5rem;
+        }
+      }
     }
   }
 }
