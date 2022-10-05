@@ -1,17 +1,44 @@
+import SingleSkill from "./SingleSkill/SingleSkill";
 import classes from "./Skills.module.scss";
-import gmail from "../../assets/icons/gmail.png";
+import html from "../../assets/technologies/html5.png";
+import css from "../../assets/technologies/css3.png";
+import bootsrap from "../../assets/technologies/bootstrap.png";
+import sass from "../../assets/technologies/sass.png";
+import javascript from "../../assets/technologies/javascript.png";
+import typescript from "../../assets/technologies/typescript.png";
+import react from "../../assets/technologies/react.png";
+import github from "../../assets/technologies/git-and-github.png";
 
-const MAIN_SKILLS = [
+// names of technologies
+const MAIN_TITLES = [
   "HTML5",
   "CSS3",
   "Bootstrap5",
   "SASS",
-  "Git & Github",
   "Javascript",
+  "Typescript",
   "Reactjs",
+  "Git & Github",
+];
+
+// icons of technologies
+const MAIN_TECHNOLOGIES = [
+  html,
+  css,
+  bootsrap,
+  sass,
+  javascript,
+  typescript,
+  react,
+  github,
 ];
 
 const Skills = () => {
+  // map on icons & titles arrays
+  const mainSkills = MAIN_TECHNOLOGIES.map((skill, index) => (
+    <SingleSkill icon={skill} title={MAIN_TITLES[index]} />
+  ));
+
   return (
     <div className={classes.skills}>
       <div className={classes.content}>
@@ -20,7 +47,7 @@ const Skills = () => {
           <h2>Technical Skills</h2>
           <span>&lt;/&gt;</span>
         </div>
-        <div className={classes['skills-description']}>
+        <div className={classes["skills-description"]}>
           <p>
             I like to mention that these are not all the skills I have or know,
             but they are the skills that I use a lot & able to use comfortably.
@@ -39,32 +66,7 @@ const Skills = () => {
           </p>
         </div>
       </div>
-      <div className={classes.technologies}>
-        <div className={classes["tech-box"]}>
-          <img src={gmail} alt="" />
-          <span>Javascript</span>
-        </div>
-        <div className={classes["tech-box"]}>
-          <img src={gmail} alt="" />
-          <span>Javascript</span>
-        </div>
-        <div className={classes["tech-box"]}>
-          <img src={gmail} alt="" />
-          <span>Javascript</span>
-        </div>
-        <div className={classes["tech-box"]}>
-          <img src={gmail} alt="" />
-          <span>Javascript</span>
-        </div>
-        <div className={classes["tech-box"]}>
-          <img src={gmail} alt="" />
-          <span>Javascript</span>
-        </div>
-        <div className={classes["tech-box"]}>
-          <img src={gmail} alt="" />
-          <span>Javascript</span>
-        </div>
-      </div>
+      <div className={classes.technologies}>{mainSkills}</div>
     </div>
   );
 };

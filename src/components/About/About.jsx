@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./About.module.scss";
-import aboutBG from "../../assets/svg/version_control.svg";
+import aboutBG from "../../assets/svg/about.svg";
 const About = () => {
   return (
     <section className={classes.about}>

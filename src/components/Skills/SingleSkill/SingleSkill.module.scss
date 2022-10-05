@@ -1,0 +1,19 @@
+@use "../../../styles/vars" as *;
+.tech-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  color: $light_dark;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-style: italic;
+  background-image: linear-gradient(180deg, #52acff 25%, #ffe32c 100%);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  
+  img {
+    width: 125px;
+    height: 125px;
+  }
+}
