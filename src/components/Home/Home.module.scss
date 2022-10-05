@@ -9,13 +9,17 @@
 
   .developer-photo {
     margin-top: 7vh;
-    width: 40vw;
+    width: 50vw;
     height: 100vh;
     background-color: $dark_teal;
     border-top-right-radius: 30%;
     border-bottom-right-radius: 30%;
     display: flex;
-    justify-content: flex-end;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
   }
 
   .developer-details {
@@ -97,6 +101,45 @@
     }
   }
 
+  @include responsive(tablet) {
+    flex-direction: column;
+    gap: 1rem;
+
+    .developer-photo {
+      margin-top: 10vh;
+      width: 150vw;
+      height: 50vh;
+      border-radius: 0%;
+      border-top-right-radius: 50%;
+      border-top-left-radius: 50%;
+      justify-content: center;
+    }
+
+    .developer-details {
+      .developer-info {
+        width: 100vw;
+        align-items: center;
+        h2 {
+          font-size: 5rem;
+        }
+        h3 {
+          font-size: 3rem;
+        }
+        h4 {
+          font-size: 3rem;
+        }
+      }
+
+      .developer-contacts {
+        margin-top: -2rem;
+        img {
+          width: 64px;
+          height: 64px;
+        }
+      }
+    }
+  }
+
   @include responsive(mobile) {
     flex-direction: column;
     gap: 1rem;
@@ -109,33 +152,28 @@
       border-top-right-radius: 50%;
       border-top-left-radius: 50%;
       justify-content: center;
-      img {
-        max-height: 100%;
-      }
     }
 
-    .developer-info {
-      width: 90vw;
-      h2 {
-        font-size: 3rem !important;
-        font-weight: 900 !important;
+    .developer-details {
+      .developer-info {
+        width: 90vw;
+        align-items: center;
+        h2 {
+          font-size: 3rem;
+        }
+        h3 {
+          font-size: 2rem;
+        }
+        h4 {
+          font-size: 2rem;
+        }
       }
-      h3 {
-        font-size: 2rem !important;
-      }
-      h4 {
-        font-size: 2rem !important;
-      }
-    }
 
-    .developer-contacts {
-      display: grid !important;
-      grid-template-columns: repeat(2, 1fr) !important;
-      grid-template-rows: repeat(2, 1fr) !important;
-
-      img {
-        width: 32px;
-        height: 32px;
+      .developer-contacts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-top: -2rem;
       }
     }
   }
