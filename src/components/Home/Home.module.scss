@@ -47,7 +47,8 @@
 
     .developer-contacts {
       display: flex;
-      gap: 3rem;
+      gap: 4rem;
+      margin-top: 5rem;
       font-size: 4rem;
 
       .linked-in,
@@ -55,6 +56,9 @@
       .github {
         transition: $main_transition;
         cursor: pointer;
+        &:hover {
+          transform: translateY(-15px);
+        }
       }
 
       .linked-in {
@@ -75,6 +79,16 @@
         color: #1565c0;
         &:hover {
           color: #1e88e5;
+        }
+      }
+
+      img {
+        width: 64px;
+        height: 64px;
+        transition: $main_transition;
+        cursor: pointer;
+        &:hover {
+          transform: translateY(-15px);
         }
       }
     }
