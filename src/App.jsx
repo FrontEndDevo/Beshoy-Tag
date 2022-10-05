@@ -7,7 +7,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 
 const App = () => {
   return (
-    <div>
+    <div className='app'>
       <Navbar />
       <Route path="/">
         <Redirect to="home" />

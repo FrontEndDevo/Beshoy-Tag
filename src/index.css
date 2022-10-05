@@ -17,3 +17,7 @@ img {
   user-select: none;
   -webkit-user-drag: none;
 }
+
+.app{
+  background-color: #f3f4f7;
+}

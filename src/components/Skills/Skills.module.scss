@@ -1,4 +1,5 @@
 @use "../../styles/vars" as *;
+@use "../../styles/mixins" as *;
 
 .skills {
   height: 100vh;
@@ -39,9 +40,74 @@
   .technologies {
     width: 50vw;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin-left: 5rem;
     gap: 3rem;
+  }
+
+  @include responsive(mobile) {
+    flex-direction: column;
+
+    .content {
+      width: 100vw;
+      align-items: center;
+      margin: 10vh auto 0;
+      padding: 1rem;
+      gap: 1rem;
+      .title {
+        h2 {
+          font-size: 2rem;
+        }
+      }
+
+      .skills-description {
+        font-size: 1rem;
+      }
+    }
+
+    .technologies {
+      width: 100vw;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 0;
+      gap: 1rem;
+    }
+  }
+
+  @include responsive(desktop) {
+    gap: 1rem;
+    .technologies {
+      gap: 1rem;
+      margin-left: 0;
+    }
+  }
+
+  @include responsive(tablet) {
+    flex-direction: column;
+
+    .content {
+      width: 100vw;
+      row-gap: 1rem;
+      padding: 2rem;
+      margin: 8vh 0 0;
+
+      .title {
+        h2 {
+          font-size: 3rem;
+        }
+      }
+
+      .skills-description {
+        font-size: 1.2rem;
+      }
+    }
+
+    .technologies {
+      width: 100vw;
+      margin-left: 0;
+      gap: 2rem;
+    }
   }
 }
 
