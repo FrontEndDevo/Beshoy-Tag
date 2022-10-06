@@ -1,7 +1,29 @@
-@use '../../styles/vars' as *;
-@use '../../styles/mixins' as *;
+@use "../../styles/vars" as *;
+@use "../../styles/mixins" as *;
 
-.portfolio{
+.portfolio {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .content {
+    width: 90vw;
+    background-color: white;
+    padding: 2rem 4rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
 
-  
+    h4 {
+      font-size: 2rem;
+      font-weight: 900;
+    }
+
+    .all-projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3rem;
+    }
+  }
 }

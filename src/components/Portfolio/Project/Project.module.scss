@@ -1,0 +1,30 @@
+@use "../../../styles/vars" as *;
+@use "../../../styles/mixins" as *;
+
+.project {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+  img {
+    width: 300px;
+    height: 300px;
+    max-width: 100%;
+    border-radius: 60px;
+    position: relative;
+  }
+
+  span {
+    margin: 1rem auto 0.5rem 0;
+    color: $light_blue;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    text-align: justify;
+    color: $light_dark;
+  }
+}
