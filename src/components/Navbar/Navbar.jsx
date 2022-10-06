@@ -11,18 +11,21 @@ const Navbar = () => {
       <div className={classes["nav-links"]}>
         <ul>
           <li>
-            <NavLink activeClassName={classes["class-active"]} to="/home">
+            <NavLink
+              activeClassName={classes["class-active"]}
+              to="/Beshoy-Tag/home"
+            >
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink to="/portfolio">Portfolio</NavLink>
+            <NavLink to="/Beshoy-Tag/portfolio">Portfolio</NavLink>
           </li>
           <li>
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="/Beshoy-Tag/about">About</NavLink>
           </li>
           <li>
-            <NavLink to="/skills">Skills</NavLink>
+            <NavLink to="/Beshoy-Tag/skills">Skills</NavLink>
           </li>
         </ul>
       </div>

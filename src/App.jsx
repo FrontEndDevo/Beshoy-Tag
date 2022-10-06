@@ -7,21 +7,21 @@ import Portfolio from "./components/Portfolio/Portfolio";
 
 const App = () => {
   return (
-    <div className='app'>
+    <div className="app">
       <Navbar />
       <Route path="/">
-        <Redirect to="home" />
+        <Redirect to="/Beshoy-Tag/home" />
       </Route>
-      <Route path="/home">
+      <Route path="/Beshoy-Tag/home">
         <Home />
       </Route>
-      <Route path="/about">
+      <Route path="/Beshoy-Tag/about">
         <About />
       </Route>
-      <Route path="/skills">
+      <Route path="/Beshoy-Tag/skills">
         <Skills />
       </Route>
-      <Route path="/portfolio">
+      <Route path="/Beshoy-Tag/portfolio">
         <Portfolio />
       </Route>
     </div>
