@@ -36,7 +36,7 @@ const MAIN_TECHNOLOGIES = [
 const Skills = () => {
   // map on icons & titles arrays
   const mainSkills = MAIN_TECHNOLOGIES.map((skill, index) => (
-    <SingleSkill icon={skill} title={MAIN_TITLES[index]} />
+    <SingleSkill key={index} icon={skill} title={MAIN_TITLES[index]} />
   ));
 
   return (
@@ -66,7 +66,7 @@ const Skills = () => {
           </p>
         </div>
       </div>
-      <div className={classes.technologies}>{mainSkills}</div>
+      <ul className={classes.technologies}>{mainSkills}</ul>
     </div>
   );
 };
