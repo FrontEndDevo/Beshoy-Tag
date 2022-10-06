@@ -13,7 +13,6 @@
     padding: 2rem 4rem;
     gap: 2rem;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     border-radius: 10px;
 
@@ -29,26 +28,6 @@
       display: flex;
       flex-wrap: wrap;
       gap: 3rem;
-    }
-  }
-
-  @include responsive(mobile) {
-    .content {
-      align-items: center;
-      height: 100%;
-      background-color: $main_bg;
-      padding: 2rem;
-      border-radius: 0;
-
-      h4 {
-        text-align: center;
-      }
-
-      .all-projects {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 3rem;
-      }
     }
   }
 }
