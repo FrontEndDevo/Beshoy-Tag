@@ -1,5 +1,6 @@
 @use "../../styles/vars" as *;
 @use "../../styles/mixins" as *;
+@use "../../styles/global" as *;
 
 .skills {
   height: 100vh;
@@ -111,12 +112,3 @@
   }
 }
 
-@keyframes bright {
-  0%,
-  100% {
-    filter: brightness(100%);
-  }
-  50% {
-    filter: brightness(200%);
-  }
-}

@@ -4,27 +4,61 @@
 .project {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 400px;
+  
+  gap: 1rem;
+  border: 2px solid $med_yellow;
+  padding: 1rem;
+  border-radius: 60px;
 
-  img {
-    width: 300px;
+  > img {
+    width: 100%;
     height: 300px;
     max-width: 100%;
     border-radius: 60px;
-    position: relative;
   }
 
   span {
-    margin: 1rem auto 0.5rem 0;
     color: $light_blue;
-    font-weight: 700;
+    font-weight: 900;
     font-style: italic;
     font-size: 1.5rem;
   }
 
   p {
-    font-size: 1.2rem;
     text-align: justify;
     color: $light_dark;
+  }
+
+  h6 {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    button {
+      border: none;
+      outline: none;
+      cursor: pointer;
+      background-color: transparent;
+      border: 2px solid $light_teal;
+      padding: 10px 15px;
+      border-radius: 50%;
+      transition: 0.5s;
+      &:hover {
+        background-color: $dark_teal;
+      }
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+    button:first-child {
+      border-top-left-radius: 115%;
+      border-bottom-left-radius: 115%;
+    }
   }
 }
