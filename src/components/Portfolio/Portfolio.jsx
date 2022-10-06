@@ -11,7 +11,7 @@ const MAIN_PROJECTS = [
       "Now you can order healthy food from the most famous restaurants in the world.",
     technologies: "Reactjs / SASS",
     github: "https://github.com/FrontEndDevo/React-App-Food-Delivery",
-    preview: "food-delivery-b0655.web.app",
+    preview: "https://food-delivery-b0655.web.app",
   },
 ];
 

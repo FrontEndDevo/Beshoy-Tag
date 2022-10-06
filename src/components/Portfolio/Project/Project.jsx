@@ -1,6 +1,6 @@
 import styles from "./Project.module.scss";
 import github from "../../../assets/portfolio_images/github.png";
-import preview from "../../../assets/portfolio_images/view.png";
+import preview from "../../../assets/portfolio_images/eye.png";
 
 const Project = (props) => {
   const blank = "_blank";
@@ -10,7 +10,7 @@ const Project = (props) => {
   };
 
   const previewLinkHandler = () => {
-    // window.open(props.preview, blank);
+    window.open(props.preview, blank);
   };
 
   return (
