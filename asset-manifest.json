@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Beshoy-Tag/static/css/main.5ba3aa68.css",
-    "main.js": "/Beshoy-Tag/static/js/main.d8622061.js",
+    "main.js": "/Beshoy-Tag/static/js/main.660d33c5.js",
     "static/media/Linked in.png": "/Beshoy-Tag/static/media/Linked in.d03289fd82a8a514b499.png",
     "static/media/food-order.png": "/Beshoy-Tag/static/media/food-order.3176dfd732ac8899f5c1.png",
     "static/media/git-and-github.png": "/Beshoy-Tag/static/media/git-and-github.32fcbb953eb648921dd7.png",
@@ -15,10 +15,10 @@
     "static/media/gmail.png": "/Beshoy-Tag/static/media/gmail.23d2a9b0f4cc2cae2ed1.png",
     "index.html": "/Beshoy-Tag/index.html",
     "main.5ba3aa68.css.map": "/Beshoy-Tag/static/css/main.5ba3aa68.css.map",
-    "main.d8622061.js.map": "/Beshoy-Tag/static/js/main.d8622061.js.map"
+    "main.660d33c5.js.map": "/Beshoy-Tag/static/js/main.660d33c5.js.map"
   },
   "entrypoints": [
     "static/css/main.5ba3aa68.css",
-    "static/js/main.d8622061.js"
+    "static/js/main.660d33c5.js"
   ]
 }
