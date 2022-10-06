@@ -1,24 +1,16 @@
 {
   "files": {
     "main.css": "/Beshoy-Tag/static/css/main.5ba3aa68.css",
-    "main.js": "/Beshoy-Tag/static/js/main.4c986e0b.js",
-    "static/media/Linked in.png": "/Beshoy-Tag/static/media/Linked in.d03289fd82a8a514b499.png",
-    "static/media/food-order.png": "/Beshoy-Tag/static/media/food-order.3176dfd732ac8899f5c1.png",
-    "static/media/git-and-github.png": "/Beshoy-Tag/static/media/git-and-github.32fcbb953eb648921dd7.png",
-    "static/media/react.png": "/Beshoy-Tag/static/media/react.b19a7ea62269e54657b2.png",
-    "static/media/eye.png": "/Beshoy-Tag/static/media/eye.635f70c3ada1c2ead293.png",
-    "static/media/bootstrap.png": "/Beshoy-Tag/static/media/bootstrap.b843cb055a10f45fea29.png",
-    "static/media/github.png": "/Beshoy-Tag/static/media/github.3ff523db9257950b999c.png",
-    "static/media/html5.png": "/Beshoy-Tag/static/media/html5.6e4a5621783c3c8c0667.png",
+    "main.js": "/Beshoy-Tag/static/js/main.97e6c324.js",
+    "static/media/Linked in.png": "/Beshoy-Tag/static/media/Linked in.c42f37c29af53933d8cf.png",
+    "static/media/food-order.png": "/Beshoy-Tag/static/media/food-order.38d80f907894e99a59b4.png",
     "static/media/about.svg": "/Beshoy-Tag/static/media/about.5078abe2c21a98929b138d924faf3e6d.svg",
-    "static/media/css3.png": "/Beshoy-Tag/static/media/css3.68ba79f50e3278164cb8.png",
-    "static/media/gmail.png": "/Beshoy-Tag/static/media/gmail.23d2a9b0f4cc2cae2ed1.png",
     "index.html": "/Beshoy-Tag/index.html",
     "main.5ba3aa68.css.map": "/Beshoy-Tag/static/css/main.5ba3aa68.css.map",
-    "main.4c986e0b.js.map": "/Beshoy-Tag/static/js/main.4c986e0b.js.map"
+    "main.97e6c324.js.map": "/Beshoy-Tag/static/js/main.97e6c324.js.map"
   },
   "entrypoints": [
     "static/css/main.5ba3aa68.css",
-    "static/js/main.4c986e0b.js"
+    "static/js/main.97e6c324.js"
   ]
 }
