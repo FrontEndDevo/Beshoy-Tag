@@ -1,5 +1,6 @@
 import classes from "./Portfolio.module.scss";
 import foodOrder from "../../assets/projects/food-order.png";
+import flyingNotes from "../../assets/projects/flying-notes.png";
 import Project from "./Project/Project";
 
 const MAIN_PROJECTS = [
@@ -12,6 +13,16 @@ const MAIN_PROJECTS = [
     technologies: "Reactjs / SASS",
     github: "https://github.com/FrontEndDevo/React-App-Food-Delivery",
     preview: "https://food-delivery-b0655.web.app",
+  },
+  {
+    id: "p2",
+    icon: flyingNotes,
+    title: "Flying Notes",
+    description:
+      "Now you can easily record your notes in an online book, and of course, you can return in anytime to read, write, and edit your own notes.",
+    technologies: "Reactjs (Redux toolkit & React Routing) & SASS",
+    github: "https://github.com/FrontEndDevo/Flying-Notes",
+    preview: "https://frontenddevo.github.io/Flying-Notes/",
   },
 ];
 
