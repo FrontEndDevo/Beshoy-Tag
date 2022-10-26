@@ -3,6 +3,7 @@ import classes from "./Skills.module.scss";
 import html from "../../assets/technologies/html5.png";
 import css from "../../assets/technologies/css3.png";
 import bootsrap from "../../assets/technologies/bootstrap.png";
+import tailwindcss from "../../assets/technologies/tailwindcss.png";
 import sass from "../../assets/technologies/sass.png";
 import javascript from "../../assets/technologies/javascript.png";
 import typescript from "../../assets/technologies/typescript.png";
@@ -14,6 +15,7 @@ const MAIN_TITLES = [
   "HTML5",
   "CSS3",
   "Bootstrap5",
+  "TailwindCSS",
   "SASS",
   "Javascript",
   "Reactjs",
@@ -26,6 +28,7 @@ const MAIN_TECHNOLOGIES = [
   html,
   css,
   bootsrap,
+  tailwindcss,
   sass,
   javascript,
   react,
