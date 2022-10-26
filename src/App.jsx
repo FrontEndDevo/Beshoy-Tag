@@ -18,11 +18,11 @@ const App = () => {
       <Route path="/Beshoy-Tag/about">
         <About />
       </Route>
-      <Route path="/Beshoy-Tag/skills">
-        <Skills />
-      </Route>
       <Route path="/Beshoy-Tag/portfolio">
         <Portfolio />
+      </Route>
+      <Route path="/Beshoy-Tag/skills">
+        <Skills />
       </Route>
     </div>
   );
