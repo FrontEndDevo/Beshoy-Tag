@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Beshoy-Tag/static/css/main.0da5aa3e.css",
-    "main.js": "/Beshoy-Tag/static/js/main.f44ccd0c.js",
+    "main.css": "/Beshoy-Tag/static/css/main.07eaea5a.css",
+    "main.js": "/Beshoy-Tag/static/js/main.bc8c36a9.js",
     "static/media/Linked in.png": "/Beshoy-Tag/static/media/Linked in.c42f37c29af53933d8cf.png",
     "static/media/flying-notes.png": "/Beshoy-Tag/static/media/flying-notes.e584d7f9bf1acb7107a1.png",
     "static/media/food-order.png": "/Beshoy-Tag/static/media/food-order.38d80f907894e99a59b4.png",
+    "static/media/git-and-github.png": "/Beshoy-Tag/static/media/git-and-github.68b4803983bf266d4120.png",
     "static/media/about.svg": "/Beshoy-Tag/static/media/about.5078abe2c21a98929b138d924faf3e6d.svg",
     "index.html": "/Beshoy-Tag/index.html",
-    "main.0da5aa3e.css.map": "/Beshoy-Tag/static/css/main.0da5aa3e.css.map",
-    "main.f44ccd0c.js.map": "/Beshoy-Tag/static/js/main.f44ccd0c.js.map"
+    "main.07eaea5a.css.map": "/Beshoy-Tag/static/css/main.07eaea5a.css.map",
+    "main.bc8c36a9.js.map": "/Beshoy-Tag/static/js/main.bc8c36a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.0da5aa3e.css",
-    "static/js/main.f44ccd0c.js"
+    "static/css/main.07eaea5a.css",
+    "static/js/main.bc8c36a9.js"
   ]
 }
