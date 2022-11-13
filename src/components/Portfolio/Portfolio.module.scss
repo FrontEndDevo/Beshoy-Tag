@@ -3,12 +3,12 @@
 @use "../../styles/global" as *;
 
 .portfolio {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+
   .content {
-    margin-top: 2rem;
+    margin-top: 6rem;
     width: 90vw;
     background-color: white;
     padding: 2rem 4rem;
@@ -29,6 +29,7 @@
       display: flex;
       flex-wrap: wrap;
       gap: 3rem;
+      justify-content: center;
     }
   }
 }

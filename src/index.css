@@ -6,7 +6,7 @@
 }
 body {
   font-family: "Playfair Display", serif;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 ul {
