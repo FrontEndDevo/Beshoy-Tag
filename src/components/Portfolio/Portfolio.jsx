@@ -1,7 +1,8 @@
 import classes from "./Portfolio.module.scss";
 import foodOrder from "../../assets/projects/food-order.png";
 import flyingNotes from "../../assets/projects/flying-notes.png";
-import typingSpeedTest from "../../assets/projects/Typing-Speed-Test.png";
+import typingSpeedTest from "../../assets/projects/typing-speed-test.png";
+import todoList from "../../assets/projects/todo-list.png";
 import Project from "./Project/Project";
 
 const MAIN_PROJECTS = [
@@ -34,6 +35,16 @@ const MAIN_PROJECTS = [
     technologies: "HTML & SASS & JS",
     github: "https://github.com/FrontEndDevo/Typing-Speed-Test",
     preview: "https://frontenddevo.github.io/Typing-Speed-Test/",
+  },
+  {
+    id: "p4",
+    img: todoList,
+    title: "Todo List",
+    description:
+      "Todo list is a simple, easy-to-use, and clean way to stay on top of your to-do list and improve your productivity.",
+    technologies: "HTML & CSS & Bootstrap & JavaScript",
+    github: "https://github.com/FrontEndDevo/Todo-List",
+    preview: "https://frontenddevo.github.io/Todo-List/",
   },
 ];
 
