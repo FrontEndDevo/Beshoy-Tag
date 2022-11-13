@@ -15,7 +15,7 @@ const Project = (props) => {
 
   return (
     <li className={styles.project}>
-      <img src={props.icon} alt={props.title} />
+      <img src={props.img} alt={props.title} />
       <span>{props.title}</span>
       <p>{props.description}</p>
       <h6>{props.technologies}</h6>

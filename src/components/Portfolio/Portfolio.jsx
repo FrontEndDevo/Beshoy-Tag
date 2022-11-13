@@ -6,7 +6,7 @@ import Project from "./Project/Project";
 const MAIN_PROJECTS = [
   {
     id: "p1",
-    icon: foodOrder,
+    img: foodOrder,
     title: "Food Order",
     description:
       "Now you can order healthy food from the most famous restaurants in the world.",
@@ -16,7 +16,7 @@ const MAIN_PROJECTS = [
   },
   {
     id: "p2",
-    icon: flyingNotes,
+    img: flyingNotes,
     title: "Flying Notes",
     description:
       "Now you can easily record your notes in an online book, and of course, you can return in anytime to read, write, and edit your own notes.",
@@ -30,7 +30,7 @@ const Portfolio = () => {
   const allProjects = MAIN_PROJECTS.map((project) => (
     <Project
       key={project.id}
-      icon={project.icon}
+      img={project.img}
       title={project.title}
       description={project.description}
       technologies={project.technologies}
