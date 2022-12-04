@@ -18,7 +18,7 @@ const MAIN_PROJECTS = [
     title: "Food Order",
     description:
       "Now you can order healthy food from the most famous restaurants in the world.",
-    technologies: "Reactjs / SASS",
+    technologies: "Reactjs & SASS",
     github: "https://github.com/FrontEndDevo/React-App-Food-Delivery",
     preview: "https://food-delivery-b0655.web.app",
   },
@@ -38,7 +38,7 @@ const MAIN_PROJECTS = [
     title: "WEBUILD",
     description:
       "Want to build your own building? Afraid of rising resource prices? Urgent and want to finish as soon as possible? You will find all the solutions to your problems with us.",
-    technologies: "Reactjs && TailwindCSS",
+    technologies: "Reactjs & TailwindCSS",
     github: "https://github.com/FrontEndDevo/webuild",
     preview: "frontenddevo.github.io/webuild/",
   },
