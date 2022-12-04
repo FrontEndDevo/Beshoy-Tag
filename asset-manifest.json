@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/Beshoy-Tag/static/css/main.9a5047e2.css",
-    "main.js": "/Beshoy-Tag/static/js/main.be8afcd0.js",
+    "main.js": "/Beshoy-Tag/static/js/main.6937d5c1.js",
+    "static/media/webuild.png": "/Beshoy-Tag/static/media/webuild.38b17f495d85be62fe15.png",
     "static/media/Linked in.png": "/Beshoy-Tag/static/media/Linked in.c42f37c29af53933d8cf.png",
     "static/media/flying-notes.png": "/Beshoy-Tag/static/media/flying-notes.e584d7f9bf1acb7107a1.png",
     "static/media/food-order.png": "/Beshoy-Tag/static/media/food-order.38d80f907894e99a59b4.png",
@@ -11,10 +12,10 @@
     "static/media/about.svg": "/Beshoy-Tag/static/media/about.5078abe2c21a98929b138d924faf3e6d.svg",
     "index.html": "/Beshoy-Tag/index.html",
     "main.9a5047e2.css.map": "/Beshoy-Tag/static/css/main.9a5047e2.css.map",
-    "main.be8afcd0.js.map": "/Beshoy-Tag/static/js/main.be8afcd0.js.map"
+    "main.6937d5c1.js.map": "/Beshoy-Tag/static/js/main.6937d5c1.js.map"
   },
   "entrypoints": [
     "static/css/main.9a5047e2.css",
-    "static/js/main.be8afcd0.js"
+    "static/js/main.6937d5c1.js"
   ]
 }
