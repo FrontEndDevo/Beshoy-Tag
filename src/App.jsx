@@ -6,10 +6,11 @@ import Skills from "./components/Skills/Skills";
 import Portfolio from "./components/Portfolio/Portfolio";
 import foodOrder from "../src/assets/projects/food-order.png";
 import flyingNotes from "../src/assets/projects/flying-notes.png";
+import weBuild from "../src/assets/projects/webuild.png";
 import typingSpeedTest from "../src/assets/projects/typing-speed-test.png";
 import todoList from "../src/assets/projects/todo-list.png";
 
-
+// Add new project from here:
 const MAIN_PROJECTS = [
   {
     id: "p1",
@@ -33,6 +34,16 @@ const MAIN_PROJECTS = [
   },
   {
     id: "p3",
+    img: weBuild,
+    title: "WEBUILD",
+    description:
+      "Want to build your own building? Afraid of rising resource prices? Urgent and want to finish as soon as possible? You will find all the solutions to your problems with us.",
+    technologies: "Reactjs && TailwindCSS",
+    github: "https://github.com/FrontEndDevo/webuild",
+    preview: "frontenddevo.github.io/webuild/",
+  },
+  {
+    id: "p4",
     img: typingSpeedTest,
     title: "Typing Speed Test",
     description:
@@ -42,7 +53,7 @@ const MAIN_PROJECTS = [
     preview: "https://frontenddevo.github.io/Typing-Speed-Test/",
   },
   {
-    id: "p4",
+    id: "p5",
     img: todoList,
     title: "Todo List",
     description:
