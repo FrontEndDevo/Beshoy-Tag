@@ -9,6 +9,7 @@ import {
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
 import gmail from "../../assets/icons/gmail.png";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 // Social Media hyperlinks.
 const HYPERLINKS = {
@@ -26,7 +27,7 @@ const Home = () => {
       showCursor: true,
       startDelay: 500,
       backDelay: 1000,
-      strings: ["Front-End", "React Developer", "Web Developer"],
+      strings: ["Front-End developer", "ReactJS Developer", "Web Developer"],
     });
   }, []);
 
@@ -79,6 +80,14 @@ const Home = () => {
           />
           <img src={gmail} alt="gmail icon" onClick={gmailHandler} />
         </div>
+        <a
+          className={classes.resume}
+          href="../../assets/Beshoy_Tag.pdf"
+          download
+        >
+          <p>Download CV</p>
+          <FontAwesomeIcon icon={faDownload} />
+        </a>
       </div>
     </div>
   );
