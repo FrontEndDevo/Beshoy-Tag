@@ -1,15 +1,17 @@
 import SingleSkill from "./SingleSkill/SingleSkill";
 import classes from "./Skills.module.scss";
-import html from "../../assets/technologies/html5.png";
-import css from "../../assets/technologies/css3.png";
-import bootsrap from "../../assets/technologies/bootstrap.png";
-import tailwindcss from "../../assets/technologies/tailwindcss.png";
-import sass from "../../assets/technologies/sass.png";
-import javascript from "../../assets/technologies/javascript.png";
-import typescript from "../../assets/technologies/typescript.png";
-import react from "../../assets/technologies/react.png";
-import github from "../../assets/technologies/git-and-github.png";
-import next from "../../assets/technologies/nextjs-icon.svg";
+import html5 from "../../assets/technologies/html5.svg";
+import css3 from "../../assets/technologies/css3.svg";
+import bootsrap5 from "../../assets/technologies/bootstrap5.svg";
+import tailwindcss from "../../assets/technologies/tailwindcss.svg";
+import sass from "../../assets/technologies/sass.svg";
+import javascript from "../../assets/technologies/javascript.svg";
+import typescript from "../../assets/technologies/typescript.svg";
+import react from "../../assets/technologies/react.svg";
+import redux from "../../assets/technologies/redux.svg";
+import next from "../../assets/technologies/nextjs.svg";
+import git from "../../assets/technologies/git.svg";
+import github from "../../assets/technologies/github.svg";
 
 // names of technologies
 const MAIN_TITLES = [
@@ -19,23 +21,27 @@ const MAIN_TITLES = [
   "TailwindCSS",
   "SASS",
   "Javascript",
-  "Reactjs",
-  "Nextjs",
   "Typescript",
-  "Git & Github",
+  "Reactjs",
+  "Redux",
+  "Nextjs",
+  "Git",
+  "Github",
 ];
 
 // icons of technologies
 const MAIN_TECHNOLOGIES = [
-  html,
-  css,
-  bootsrap,
+  html5,
+  css3,
+  bootsrap5,
   tailwindcss,
   sass,
   javascript,
-  react,
-  next,
   typescript,
+  react,
+  redux,
+  next,
+  git,
   github,
 ];
 
