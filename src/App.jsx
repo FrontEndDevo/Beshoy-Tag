@@ -9,6 +9,8 @@ import flyingNotes from "../src/assets/projects/flying-notes.png";
 import weBuild from "../src/assets/projects/webuild.png";
 import typingSpeedTest from "../src/assets/projects/typing-speed-test.png";
 import todoList from "../src/assets/projects/todo-list.png";
+import boundi from "../src/assets/projects/boundi.png";
+import oliver from "../src/assets/projects/oliver.png";
 
 // Add new project from here:
 const MAIN_PROJECTS = [
@@ -57,10 +59,30 @@ const MAIN_PROJECTS = [
     img: todoList,
     title: "Todo List",
     description:
+      "Boundi is an SPA website that introduces a company and its staff and what they do with all their services",
+    technologies: "HTML & CSS & Bootstrap",
+    github: "https://github.com/FrontEndDevo/Bondi-Bootstrap",
+    preview: "https://frontenddevo.github.io/Bondi-Bootstrap/",
+  },
+  {
+    id: "p6",
+    img: boundi,
+    title: "Boundi",
+    description:
       "Todo list is a simple, easy-to-use, and clean way to stay on top of your to-do list and improve your productivity.",
     technologies: "HTML & CSS & Bootstrap & JavaScript",
     github: "https://github.com/FrontEndDevo/Todo-List",
     preview: "https://frontenddevo.github.io/Todo-List/",
+  },
+  {
+    id: "p7",
+    img: oliver,
+    title: "Oliver",
+    description:
+      "This integrated website describes the Oliver team, who introduce themselves through their personal website, show their work, plans, services, and price plans, and introduce you to the team members and their skills, in addition to the most important upcoming events and how to communicate with them.",
+    technologies: "HTML & CSS",
+    github: "https://github.com/FrontEndDevo/Template-Oliver",
+    preview: "https://frontenddevo.github.io/Template-Oliver/",
   },
 ];
 
