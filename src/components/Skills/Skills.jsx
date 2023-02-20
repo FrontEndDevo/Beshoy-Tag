@@ -9,6 +9,7 @@ import javascript from "../../assets/technologies/javascript.png";
 import typescript from "../../assets/technologies/typescript.png";
 import react from "../../assets/technologies/react.png";
 import github from "../../assets/technologies/git-and-github.png";
+import next from "../../assets/technologies/nextjs-icon.svg";
 
 // names of technologies
 const MAIN_TITLES = [
@@ -19,6 +20,7 @@ const MAIN_TITLES = [
   "SASS",
   "Javascript",
   "Reactjs",
+  "Nextjs",
   "Typescript",
   "Git & Github",
 ];
@@ -32,6 +34,7 @@ const MAIN_TECHNOLOGIES = [
   sass,
   javascript,
   react,
+  next,
   typescript,
   github,
 ];
