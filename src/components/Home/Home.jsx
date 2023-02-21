@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import classes from "./Home.module.scss";
 import { init } from "ityped";
-import photo from "../../assets/me/Linked in.png";
+import photo from "../../assets/me/Beshoy_Tag.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
