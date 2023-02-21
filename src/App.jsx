@@ -6,6 +6,7 @@ import Skills from "./components/Skills/Skills";
 import Portfolio from "./components/Portfolio/Portfolio";
 import foodOrder from "../src/assets/projects/food-order.png";
 import flyingNotes from "../src/assets/projects/flying-notes.png";
+import beautifulNews from "../src/assets/projects/beautiful-news.png";
 import weBuild from "../src/assets/projects/webuild.png";
 import typingSpeedTest from "../src/assets/projects/typing-speed-test.png";
 import todoList from "../src/assets/projects/todo-list.png";
@@ -36,46 +37,56 @@ const MAIN_PROJECTS = [
   },
   {
     id: "p3",
+    img: beautifulNews,
+    title: "Beautiful News",
+    description:
+      "Our site includes all types of news like political, judicial, entertainment, sports and more. We present a continuous flow of links to articles organized from thousands of publishers and magazines.",
+    technologies: "Reactjs & Nextjs & SASS",
+    github: "https://github.com/FrontEndDevo/beautiful-news",
+    preview: "https://beautiful-news.vercel.app",
+  },
+  {
+    id: "p4",
     img: weBuild,
     title: "WEBUILD",
     description:
       "Want to build your own building? Afraid of rising resource prices? Urgent and want to finish as soon as possible? You will find all the solutions to your problems with us.",
     technologies: "Reactjs & TailwindCSS",
     github: "https://github.com/FrontEndDevo/webuild",
-    preview: "frontenddevo.github.io/webuild/",
+    preview: "https://frontenddevo.github.io/webuild/",
   },
   {
-    id: "p4",
+    id: "p5",
     img: typingSpeedTest,
     title: "Typing Speed Test",
     description:
       "Do you think you are fast at typing? Let's play this game together and find out how fast you are.",
-    technologies: "HTML & SASS & JS",
+    technologies: "HTML & SASS & Javascript",
     github: "https://github.com/FrontEndDevo/Typing-Speed-Test",
     preview: "https://frontenddevo.github.io/Typing-Speed-Test/",
   },
   {
-    id: "p5",
+    id: "p6",
     img: todoList,
     title: "Todo List",
     description:
       "Boundi is an SPA website that introduces a company and its staff and what they do with all their services",
-    technologies: "HTML & CSS & Bootstrap",
+    technologies: "HTML & CSS & Javascript",
     github: "https://github.com/FrontEndDevo/Bondi-Bootstrap",
     preview: "https://frontenddevo.github.io/Bondi-Bootstrap/",
   },
   {
-    id: "p6",
+    id: "p7",
     img: boundi,
     title: "Boundi",
     description:
       "Todo list is a simple, easy-to-use, and clean way to stay on top of your to-do list and improve your productivity.",
-    technologies: "HTML & CSS & Bootstrap & JavaScript",
+    technologies: "HTML & CSS & Bootstrap",
     github: "https://github.com/FrontEndDevo/Todo-List",
     preview: "https://frontenddevo.github.io/Todo-List/",
   },
   {
-    id: "p7",
+    id: "p8",
     img: oliver,
     title: "Oliver",
     description:
