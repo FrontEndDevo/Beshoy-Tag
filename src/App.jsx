@@ -20,7 +20,7 @@ const MAIN_PROJECTS = [
     img: foodOrder,
     title: "Food Order",
     description:
-      "Now you can order healthy food from the most famous restaurants in the world.",
+      "Order healthy food from the most famous restaurants in the world, you can simply see our latest meals and choose what you want, the food will be prepared for you and delivered to you as soon as possible to enjoy a delicious and cheap",
     technologies: "Reactjs & SASS",
     github: "https://github.com/FrontEndDevo/React-App-Food-Delivery",
     preview: "https://food-delivery-b0655.web.app",
