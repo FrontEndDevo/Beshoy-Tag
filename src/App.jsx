@@ -73,7 +73,7 @@ const MAIN_PROJECTS = [
       "Boundi is an SPA website that introduces a company and its staff and what they do with all their services",
     technologies: "HTML & CSS & Javascript",
     github: "https://github.com/FrontEndDevo/Bondi-Bootstrap",
-    preview: "https://frontenddevo.github.io/Bondi-Bootstrap/",
+    preview: "https://frontenddevo.github.io/Todo-List/",
   },
   {
     id: "p7",
@@ -83,7 +83,7 @@ const MAIN_PROJECTS = [
       "Todo list is a simple, easy-to-use, and clean way to stay on top of your to-do list and improve your productivity.",
     technologies: "HTML & CSS & Bootstrap",
     github: "https://github.com/FrontEndDevo/Todo-List",
-    preview: "https://frontenddevo.github.io/Todo-List/",
+    preview: "https://frontenddevo.github.io/Bondi-Bootstrap/",
   },
   {
     id: "p8",
