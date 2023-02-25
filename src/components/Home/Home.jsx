@@ -10,7 +10,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import gmail from "../../assets/icons/gmail.png";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
-
+import { Link } from "react-router-dom";
+import developerResume from "../../assets/Beshoy_Tag.pdf";
 // Social Media hyperlinks.
 const HYPERLINKS = {
   linkedin: "https://www.linkedin.com/in/beshoy-tag-72863420b/",
@@ -80,14 +81,15 @@ const Home = () => {
           />
           <img src={gmail} alt="gmail icon" onClick={gmailHandler} />
         </div>
-        <a
+        <Link
           className={classes.resume}
-          href="../../assets/Beshoy_Tag.pdf"
+          to={developerResume}
+          target="_blank"
           download
         >
           <p>Download CV</p>
           <FontAwesomeIcon icon={faDownload} />
-        </a>
+        </Link>
       </div>
     </div>
   );
