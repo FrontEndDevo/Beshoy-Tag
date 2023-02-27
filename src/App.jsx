@@ -35,16 +35,16 @@ const MAIN_PROJECTS = [
     github: "https://github.com/FrontEndDevo/Flying-Notes",
     preview: "https://frontenddevo.github.io/Flying-Notes/",
   },
-  {
-    id: "p3",
-    img: beautifulNews,
-    title: "Beautiful News",
-    description:
-      "Our site includes all types of news like political, judicial, entertainment, sports and more. We present a continuous flow of links to articles organized from thousands of publishers and magazines.",
-    technologies: "Reactjs & Nextjs & SASS",
-    github: "https://github.com/FrontEndDevo/beautiful-news",
-    preview: "https://beautiful-news.vercel.app",
-  },
+  // {
+  //   id: "p3",
+  //   img: beautifulNews,
+  //   title: "Beautiful News",
+  //   description:
+  //     "Our site includes all types of news like political, judicial, entertainment, sports and more. We present a continuous flow of links to articles organized from thousands of publishers and magazines.",
+  //   technologies: "Reactjs & Nextjs & SASS",
+  //   github: "https://github.com/FrontEndDevo/beautiful-news",
+  //   preview: "https://beautiful-news.vercel.app",
+  // },
   {
     id: "p4",
     img: weBuild,
