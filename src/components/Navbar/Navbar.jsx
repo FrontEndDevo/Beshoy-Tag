@@ -1,8 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import classes from "./Navbar.module.scss";
+import Lottie from "react-lottie";
+import * as sunmoonAnimation from "../../assets/Animations/sunmoon-toggle.json";
 
 const Navbar = () => {
+  const sunmoonOptions = {
+    loop: false,
+    autoplay: false,
+    animationData: sunmoonAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   return (
     <div className={classes.navbar}>
       <div className={classes.title}>
@@ -28,6 +38,14 @@ const Navbar = () => {
             <NavLink to="/Beshoy-Tag/skills">Skills</NavLink>
           </li>
         </ul>
+      </div>
+      <div className={classes.sunmoon}>
+        <Lottie
+          direction={-1}
+          options={sunmoonOptions}
+          height={200}
+          width={200}
+        />
       </div>
     </div>
   );
