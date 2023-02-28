@@ -51,7 +51,7 @@ const Home = () => {
   };
 
   return (
-    <div className={classes.home}>
+    <div className={`${classes.home} ${classes["dark-mode"]}`}>
       <div className={classes["developer-photo"]}>
         <img src={photo} alt="developer" />
       </div>

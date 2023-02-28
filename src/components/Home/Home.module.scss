@@ -7,7 +7,25 @@
   gap: 6rem;
   height: 100vh;
   overflow: hidden;
-
+  &.dark-mode {
+    background-color: $light_dark;
+    .developer-photo {
+      background-color: $light_teal;
+    }
+    .developer-details {
+      .developer-info {
+        color: $light_color;
+        h4 {
+          span {
+            color: $med_yellow;
+          }
+        }
+      }
+      .resume {
+        color: $light_color;
+      }
+    }
+  }
   .developer-photo {
     margin-top: auto;
     width: 50vw;
