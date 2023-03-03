@@ -7,14 +7,19 @@
   text-align: center;
   padding: 0.7rem 1.2rem;
   border-radius: 8px;
-  color: $light_color;
+  color: $light_dark;
   font-size: 1.3rem;
   font-weight: 600;
   font-style: italic;
-  border: 2px solid $light_blue;
+  border: 2px solid $med_yellow;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   // background-image: linear-gradient(135deg, #65fdf0 10%, #1d6fa3 100%);
+
+  &.dark-mode {
+    color: $light_color;
+    border-color: $light_blue;
+  }
 
   &:hover {
     animation: tech-rotate 3s ease-in-out;
