@@ -15,7 +15,7 @@ import developerResume from "../../assets/Beshoy_Tag.pdf";
 import DarkModeContext from "../../store/darkMode-context";
 // Social Media hyperlinks.
 const HYPERLINKS = {
-  linkedin: "https://www.linkedin.com/in/beshoy-tag-72863420b/",
+  linkedin: "https://linkedin.com/in/Beshoy-Tag",
   github: "https://github.com/FrontEndDevo",
   facebook: "https://www.facebook.com/BeshoyTag1/",
   gmail: "https://mail.google.com/mail/?view=cm&fs=1&to=mylinkacco@gmail.com",
