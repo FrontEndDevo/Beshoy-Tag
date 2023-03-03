@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 import classes from "./Navbar.module.scss";
 import Lottie from "react-lottie";
 import * as sunmoonAnimation from "../../assets/Animations/sunmoon-toggle.json";
-import DarkMoodContext from "../../store/darkMood-context";
+import DarkModeContext from "../../store/darkMode-context";
 
 const Navbar = () => {
-  const darkMoodCtx = useContext(DarkMoodContext);
+  const darkModeCtx = useContext(DarkModeContext);
 
   const sunmoonOptions = {
     loop: false,
@@ -43,9 +43,9 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className={classes.sunmoon} onClick={darkMoodCtx.toggleDarkMood}>
+      <div className={classes.sunmoon} onClick={darkModeCtx.toggleDarkMode}>
         <Lottie
-          direction={darkMoodCtx.isDarkMoodOn && -1}
+          direction={darkModeCtx.isDarkModeOn && -1}
           options={sunmoonOptions}
           height={150}
           width={150}

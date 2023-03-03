@@ -1,13 +1,13 @@
 import React, { useContext } from "react";
 import classes from "./About.module.scss";
 import aboutBG from "../../assets/svg/about.svg";
-import DarkMoodContext from "../../store/darkMood-context";
+import DarkModeContext from "../../store/darkMode-context";
 const About = () => {
-  const darkMood = useContext(DarkMoodContext);
+  const darkMode = useContext(DarkModeContext);
   return (
     <section
       className={`${classes.about} ${
-        darkMood.isDarkMoodOn && classes["dark-mood"]
+        darkMode.isDarkModeOn && classes["dark-mode"]
       }`}
     >
       <div className={classes["about-details"]}>

@@ -12,7 +12,7 @@ import gmail from "../../assets/icons/gmail.png";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import developerResume from "../../assets/Beshoy_Tag.pdf";
-import DarkMoodContext from "../../store/darkMood-context";
+import DarkModeContext from "../../store/darkMode-context";
 // Social Media hyperlinks.
 const HYPERLINKS = {
   linkedin: "https://www.linkedin.com/in/beshoy-tag-72863420b/",
@@ -22,7 +22,7 @@ const HYPERLINKS = {
 };
 
 const Home = () => {
-  const darkMood = useContext(DarkMoodContext);
+  const darkMode = useContext(DarkModeContext);
 
   // That's all about iTyped.js package, it adds nice animation.
   const textRef = useRef();
@@ -56,7 +56,7 @@ const Home = () => {
   return (
     <div
       className={`${classes.home} ${
-        darkMood.isDarkMoodOn && classes["dark-mode"]
+        darkMode.isDarkModeOn && classes["dark-mode"]
       }`}
     >
       <div className={classes["developer-photo"]}>

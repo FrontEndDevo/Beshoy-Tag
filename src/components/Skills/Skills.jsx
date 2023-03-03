@@ -13,7 +13,7 @@ import next from "../../assets/technologies/nextjs.svg";
 import git from "../../assets/technologies/git.svg";
 import github from "../../assets/technologies/github.svg";
 import { useContext } from "react";
-import DarkMoodContext from "../../store/darkMood-context";
+import DarkModeContext from "../../store/darkMode-context";
 // names of technologies
 const MAIN_TITLES = [
   "HTML5",
@@ -47,7 +47,7 @@ const MAIN_TECHNOLOGIES = [
 ];
 
 const Skills = () => {
-  const darkMode = useContext(DarkMoodContext);
+  const darkMode = useContext(DarkModeContext);
 
   // map on icons & titles arrays
   const mainSkills = MAIN_TECHNOLOGIES.map((skill, index) => (
@@ -57,7 +57,7 @@ const Skills = () => {
   return (
     <div
       className={`${classes.skills} ${
-        darkMode.isDarkMoodOn && classes["dark-mode"]
+        darkMode.isDarkModeOn && classes["dark-mode"]
       }`}
     >
       <div className={classes.content}>
