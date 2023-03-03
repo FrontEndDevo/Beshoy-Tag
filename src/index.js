@@ -4,10 +4,13 @@ import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 
 import App from "./App";
+import { DarkMoodContextProvider } from "./store/darkMood-context";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+  <DarkMoodContextProvider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </DarkMoodContextProvider>
 );
