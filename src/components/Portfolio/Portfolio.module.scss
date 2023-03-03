@@ -6,16 +6,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  &.dark-mode {
+    .content {
+      background-color: $light_dark;
+      h4 {
+        color: $light_teal;
+      }
+    }
+  }
   .content {
-    margin-top: 6rem;
-    width: 90vw;
-    background-color: white;
-    padding: 2rem 4rem;
+    padding: 7rem 4rem 2rem;
     gap: 2rem;
     display: flex;
     flex-direction: column;
-    border-radius: 10px;
 
     h4 {
       font-size: 2rem;
