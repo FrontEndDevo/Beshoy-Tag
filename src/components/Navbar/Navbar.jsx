@@ -47,8 +47,8 @@ const Navbar = () => {
         <Lottie
           direction={darkModeCtx.isDarkModeOn && -1}
           options={sunmoonOptions}
-          height={150}
-          width={150}
+          height={100}
+          width={100}
         />
       </div>
     </div>
