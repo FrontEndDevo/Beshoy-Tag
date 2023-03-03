@@ -9,23 +9,49 @@
   gap: 1rem;
   border: 2px solid $med_yellow;
   padding: 1rem;
-  border-radius: 60px;
+  border-radius: 30px;
+  transition: all 0.5s;
+
+  &.dark-mode {
+    border-color: $light_blue;
+    span {
+      color: $med_yellow;
+    }
+
+    p {
+      color: $light_color;
+    }
+
+    h6 {
+      color: $light_teal;
+    }
+
+    .buttons {
+      button {
+        border-color: $med_yellow;
+        &:hover {
+          background-color: $med_yellow;
+        }
+      }
+    }
+  }
 
   > img {
     width: 100%;
     height: 300px;
     max-width: 100%;
-    border-radius: 60px;
+    border-radius: 30px;
   }
 
   span {
-    color: $light_blue;
+    color: $dark_teal;
     font-weight: 900;
     font-style: italic;
     font-size: 1.5rem;
   }
 
   p {
+    font-size: 18px;
     text-align: justify;
     color: $light_dark;
   }
@@ -33,7 +59,7 @@
   h6 {
     font-weight: bold;
     font-size: 1rem;
-    color: $dark_teal;
+    color: $med_yellow;
   }
 
   .buttons {
@@ -47,7 +73,7 @@
       background-color: transparent;
       border: 2px solid $light_teal;
       padding: 0.5rem 1rem;
-      transition: 0.5s;
+      transition: 0.3s;
       &:hover {
         background-color: $dark_teal;
       }

@@ -1,8 +1,12 @@
 import styles from "./Project.module.scss";
 import github from "../../../assets/portfolio_images/github.png";
 import preview from "../../../assets/portfolio_images/eye.png";
+import DarkModeContext from "../../../store/darkMode-context";
+import { useContext } from "react";
 
 const Project = (props) => {
+  const darkMode = useContext(DarkModeContext);
+
   const blank = "_blank";
 
   const githubLinkHandler = () => {
@@ -14,7 +18,11 @@ const Project = (props) => {
   };
 
   return (
-    <li className={styles.project}>
+    <li
+      className={`${styles.project} ${
+        darkMode.isDarkModeOn && styles["dark-mode"]
+      }`}
+    >
       <img src={props.img} alt={props.title} />
       <span>{props.title}</span>
       <p>{props.description}</p>
