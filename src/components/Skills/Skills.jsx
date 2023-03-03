@@ -12,7 +12,8 @@ import redux from "../../assets/technologies/redux.svg";
 import next from "../../assets/technologies/nextjs.svg";
 import git from "../../assets/technologies/git.svg";
 import github from "../../assets/technologies/github.svg";
-
+import { useContext } from "react";
+import DarkMoodContext from "../../store/darkMood-context";
 // names of technologies
 const MAIN_TITLES = [
   "HTML5",
@@ -46,13 +47,19 @@ const MAIN_TECHNOLOGIES = [
 ];
 
 const Skills = () => {
+  const darkMode = useContext(DarkMoodContext);
+
   // map on icons & titles arrays
   const mainSkills = MAIN_TECHNOLOGIES.map((skill, index) => (
     <SingleSkill key={index} icon={skill} title={MAIN_TITLES[index]} />
   ));
 
   return (
-    <div className={classes.skills}>
+    <div
+      className={`${classes.skills} ${
+        darkMode.isDarkMoodOn && classes["dark-mode"]
+      }`}
+    >
       <div className={classes.content}>
         <div className={classes.title}>
           <span>&lt;&gt;</span>

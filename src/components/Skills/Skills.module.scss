@@ -4,10 +4,23 @@
 
 .skills {
   height: 100vh;
-  background-color: $light_dark;
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
+  &.dark-mode {
+    background-color: $light_dark;
+    .content {
+      .title {
+        h2 {
+          color: $light_teal;
+        }
+      }
+
+      .skills-description {
+        color: $light_color;
+      }
+    }
+  }
 
   .content {
     width: 50vw;
@@ -18,7 +31,7 @@
 
     .title {
       h2 {
-        color: $light_teal;
+        color: $dark_teal;
         font-size: 4rem;
         font-style: italic;
         font-weight: 900;
@@ -31,10 +44,11 @@
     }
 
     .skills-description {
-      color: $light_color;
+      color: $light_dark;
       line-height: 2;
       text-align: justify;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
+      font-weight: bold;
     }
   }
 
