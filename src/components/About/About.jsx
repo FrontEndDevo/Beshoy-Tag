@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import classes from "./About.module.scss";
 import aboutBG from "../../assets/svg/about.svg";
+import DarkMoodContext from "../../store/darkMood-context";
 const About = () => {
+  const darkMood = useContext(DarkMoodContext);
   return (
-    <section className={classes.about}>
+    <section
+      className={`${classes.about} ${
+        darkMood.isDarkMoodOn && classes["dark-mood"]
+      }`}
+    >
       <div className={classes["about-details"]}>
         <p>
           Hi, I am Beshoy, I'm a front-end web developer.
