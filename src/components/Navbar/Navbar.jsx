@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import classes from "./Navbar.module.scss";
 import Lottie from "react-lottie";
 import * as sunmoonAnimation from "../../assets/Animations/sunmoon-toggle.json";
+import DarkMoodContext from "../../store/darkMood-context";
 
 const Navbar = () => {
   const sunmoonOptions = {
@@ -13,6 +14,11 @@ const Navbar = () => {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+
+  const darkMoodCtx = useContext(DarkMoodContext);
+
+  console.log(darkMoodCtx);
+
   return (
     <div className={classes.navbar}>
       <div className={classes.title}>
@@ -39,9 +45,9 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className={classes.sunmoon}>
+      <div className={classes.sunmoon} onClick={darkMoodCtx.toggleDarkMood}>
         <Lottie
-          direction={-1}
+          direction={darkMoodCtx.isDarkMoodOn ? 1 : -1}
           options={sunmoonOptions}
           height={150}
           width={150}
