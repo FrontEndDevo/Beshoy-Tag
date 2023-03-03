@@ -43,8 +43,8 @@ const Navbar = () => {
         <Lottie
           direction={-1}
           options={sunmoonOptions}
-          height={200}
-          width={200}
+          height={150}
+          width={150}
         />
       </div>
     </div>

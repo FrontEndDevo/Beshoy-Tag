@@ -47,6 +47,11 @@
     }
   }
 
+  .sunmoon {
+    position: absolute;
+    right: 0;
+  }
+
   @include responsive(tablet) {
     border-radius: 0;
     .title {
