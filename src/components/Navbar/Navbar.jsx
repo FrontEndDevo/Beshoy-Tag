@@ -6,6 +6,8 @@ import * as sunmoonAnimation from "../../assets/Animations/sunmoon-toggle.json";
 import DarkMoodContext from "../../store/darkMood-context";
 
 const Navbar = () => {
+  const darkMoodCtx = useContext(DarkMoodContext);
+
   const sunmoonOptions = {
     loop: false,
     autoplay: false,
@@ -14,10 +16,6 @@ const Navbar = () => {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
-
-  const darkMoodCtx = useContext(DarkMoodContext);
-
-  console.log(darkMoodCtx);
 
   return (
     <div className={classes.navbar}>
@@ -47,7 +45,7 @@ const Navbar = () => {
       </div>
       <div className={classes.sunmoon} onClick={darkMoodCtx.toggleDarkMood}>
         <Lottie
-          direction={darkMoodCtx.isDarkMoodOn ? 1 : -1}
+          direction={darkMoodCtx.isDarkMoodOn && -1}
           options={sunmoonOptions}
           height={150}
           width={150}

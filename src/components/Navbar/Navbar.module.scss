@@ -50,6 +50,7 @@
   .sunmoon {
     position: absolute;
     right: 0;
+    cursor: pointer;
   }
 
   @include responsive(tablet) {

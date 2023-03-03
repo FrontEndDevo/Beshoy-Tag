@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useContext, useEffect, useRef } from "react";
 import classes from "./Home.module.scss";
 import { init } from "ityped";
 import photo from "../../assets/me/Beshoy_Tag.png";
@@ -12,6 +12,7 @@ import gmail from "../../assets/icons/gmail.png";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import developerResume from "../../assets/Beshoy_Tag.pdf";
+import DarkMoodContext from "../../store/darkMood-context";
 // Social Media hyperlinks.
 const HYPERLINKS = {
   linkedin: "https://www.linkedin.com/in/beshoy-tag-72863420b/",
@@ -21,6 +22,8 @@ const HYPERLINKS = {
 };
 
 const Home = () => {
+  const darkMood = useContext(DarkMoodContext);
+
   // That's all about iTyped.js package, it adds nice animation.
   const textRef = useRef();
   useEffect(() => {
@@ -51,7 +54,11 @@ const Home = () => {
   };
 
   return (
-    <div className={`${classes.home} ${classes["dark-mode"]}`}>
+    <div
+      className={`${classes.home} ${
+        darkMood.isDarkMoodOn && classes["dark-mode"]
+      }`}
+    >
       <div className={classes["developer-photo"]}>
         <img src={photo} alt="developer" />
       </div>

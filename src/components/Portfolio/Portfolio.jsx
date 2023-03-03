@@ -1,7 +1,6 @@
 import classes from "./Portfolio.module.scss";
 import Project from "./Project/Project";
 
-
 const Portfolio = (props) => {
   const allProjects = props.allProjects.map((project) => (
     <Project

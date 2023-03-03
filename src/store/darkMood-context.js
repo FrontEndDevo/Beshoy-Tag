@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
 const DarkMoodContext = React.createContext({
-  isDarkMoodOn: false,
+  isDarkMoodOn: true,
   toggleDarkMood: () => {},
 });
 export default DarkMoodContext;
 
 export const DarkMoodContextProvider = (props) => {
-  const [isDarkMoodOn, setIsDarkMoodOn] = useState(false);
+  const [isDarkMoodOn, setIsDarkMoodOn] = useState(true);
 
   const toggleDarkMood = () => {
     setIsDarkMoodOn((prevState) => !prevState);
