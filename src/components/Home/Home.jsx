@@ -54,7 +54,7 @@ const Home = () => {
   };
 
   return (
-    <div
+    <header
       className={`${classes.home} ${
         darkMode.isDarkModeOn && classes["dark-mode"]
       }`}
@@ -98,7 +98,7 @@ const Home = () => {
           <FontAwesomeIcon icon={faDownload} />
         </Link>
       </div>
-    </div>
+    </header>
   );
 };
 

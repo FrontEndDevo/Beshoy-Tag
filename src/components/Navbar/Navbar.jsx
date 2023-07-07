@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className={classes.navbar}>
+    <nav className={classes.navbar}>
       <div className={classes.title}>
         <h1>Beshoy Tag</h1>
       </div>
@@ -51,7 +51,7 @@ const Navbar = () => {
           width={100}
         />
       </div>
-    </div>
+    </nav>
   );
 };
 

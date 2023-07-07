@@ -55,7 +55,7 @@ const Skills = () => {
   ));
 
   return (
-    <div
+    <section
       className={`${classes.skills} ${
         darkMode.isDarkModeOn && classes["dark-mode"]
       }`}
@@ -86,7 +86,7 @@ const Skills = () => {
         </div>
       </div>
       <ul className={classes.technologies}>{mainSkills}</ul>
-    </div>
+    </section>
   );
 };
 
