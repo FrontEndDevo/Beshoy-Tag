@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { NavLink } from "react-router-dom";
 import classes from "./Navbar.module.scss";
 import Lottie from "react-lottie";
@@ -6,6 +6,8 @@ import * as sunmoonAnimation from "../../assets/Animations/sunmoon-toggle.json";
 import DarkModeContext from "../../store/darkMode-context";
 
 const Navbar = () => {
+  const [openMenu, setOpenMenu] = useState(true);
+
   const darkModeCtx = useContext(DarkModeContext);
 
   const sunmoonOptions = {
@@ -39,18 +41,22 @@ const Navbar = () => {
     </ul>
   );
 
+  const openMenuHandler = () => {
+    setOpenMenu((prev) => !prev);
+  };
+
   return (
     <nav className={classes.navbar}>
       <div className={classes.title}>
         <h1>Beshoy Tag</h1>
       </div>
       <div className={classes["nav-links"]}>
-        <div className={classes.menu}>
+        <div className={classes.menu} onClick={openMenuHandler}>
           <span></span>
           <span></span>
           <span></span>
         </div>
-        {navLinks}
+        {openMenu && navLinks}
       </div>
       <div className={classes.sunmoon} onClick={darkModeCtx.toggleDarkMode}>
         <Lottie
