@@ -8,7 +8,7 @@ import foodOrder from "../src/assets/projects/food-order.png";
 import flyingNotes from "../src/assets/projects/flying-notes.png";
 import beautifulNews from "../src/assets/projects/beautiful-news.png";
 import weBuild from "../src/assets/projects/webuild.png";
-import typingSpeedTest from "../src/assets/projects/typing-speed-test.png";
+import typingSpeedTest from "../src/assets/projects/Typing-Speed-Test.png";
 import todoList from "../src/assets/projects/todo-list.png";
 import boundi from "../src/assets/projects/boundi.png";
 import oliver from "../src/assets/projects/oliver.png";
