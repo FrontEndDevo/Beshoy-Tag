@@ -20,7 +20,7 @@ const Navbar = () => {
   };
 
   const navLinks = (
-    <ul>
+    <ul className={openMenu ? classes["open-menu"] : classes["close-menu"]}>
       <li>
         <NavLink
           activeClassName={classes["class-active"]}
@@ -51,12 +51,15 @@ const Navbar = () => {
         <h1>Beshoy Tag</h1>
       </div>
       <div className={classes["nav-links"]}>
-        <div className={classes.menu} onClick={openMenuHandler}>
+        <div
+          className={`${classes.menu} ${openMenu && classes.open}`}
+          onClick={openMenuHandler}
+        >
           <span></span>
           <span></span>
           <span></span>
         </div>
-        {openMenu && navLinks}
+        {navLinks}
       </div>
       <div className={classes.sunmoon} onClick={darkModeCtx.toggleDarkMode}>
         <Lottie

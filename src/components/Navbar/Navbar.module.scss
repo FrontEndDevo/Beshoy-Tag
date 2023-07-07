@@ -58,19 +58,86 @@
 
   @include responsive(tablet) {
     border-radius: 0;
+    justify-content: space-between;
     .title {
       font-size: 1.5rem;
+      order: 2;
     }
 
     .nav-links {
-      ul {
-        gap: 1rem;
+      width: fit-content;
+      order: 3;
+      margin-right: 2rem;
+      position: relative;
+      .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        width: fit-content;
+        cursor: pointer;
+        transition: 0.3s;
+        padding-right: 0;
+        span {
+          width: 30px;
+          height: 5px;
+          background-color: $med_yellow;
+          &:nth-child(2) {
+            width: 20px;
+            margin-left: auto;
+          }
+        }
+        &.open {
+          transform: rotate(630deg) scaleX(0.2) translateY(10px);
 
+          span {
+            border-radius: 50%;
+            height: 8px;
+            width: 50px;
+
+            &:nth-child(2) {
+              width: 50px;
+            }
+          }
+        }
+      }
+      ul {
+        background-color: #29323ce2;
+        border-bottom-left-radius: 1rem;
+        position: absolute;
+        right: -2rem;
+        top: 6.5vh;
+        gap: 2rem;
+        padding: 1rem;
+        flex-direction: column;
+        transform-origin: top center;
         a {
           font-size: 1.3rem;
           padding: 0.3rem 0.5rem;
+
+          &:hover {
+            color: $med_yellow;
+            font-weight: unset;
+          }
+        }
+
+        &.open-menu {
+          animation: open-menu 600ms ease-out;
+          transform: scale(1);
+        }
+
+        &.close-menu {
+          animation: close-menu 400ms ease-in;
+          transform: scale(0);
         }
       }
+
+      .class-active {
+        color: $light_color;
+      }
+    }
+    .sunmoon {
+      position: relative;
+      order: 1;
     }
   }
 
@@ -93,6 +160,8 @@
         gap: 3px;
         width: fit-content;
         cursor: pointer;
+        transition: 0.3s;
+        padding-right: 0;
         span {
           width: 20px;
           height: 3px;
@@ -102,17 +171,29 @@
             margin-left: auto;
           }
         }
+        &.open {
+          transform: rotate(450deg) scaleX(0.2);
+          span {
+            border-radius: 50%;
+            height: 4px;
+
+            &:nth-child(2) {
+              width: 20px;
+            }
+          }
+        }
       }
       ul {
         background-color: #29323ce2;
-        border-radius: 10px;
+        border-bottom-left-radius: 1rem;
         position: absolute;
         right: -2rem;
         direction: rtl;
         top: 6vh;
         gap: 1rem;
-        padding: 10px 5px;
+        padding: 5px;
         flex-direction: column;
+        transform-origin: top center;
         a {
           font-size: 1rem;
           padding: 0.5rem;
@@ -121,6 +202,16 @@
             color: $med_yellow;
             font-weight: unset;
           }
+        }
+
+        &.open-menu {
+          animation: open-menu 600ms ease-out;
+          transform: scale(1);
+        }
+
+        &.close-menu {
+          animation: close-menu 400ms ease-in;
+          transform: scale(0);
         }
       }
 
@@ -132,5 +223,33 @@
       position: relative;
       order: 1;
     }
+  }
+}
+
+@keyframes open-menu {
+  0% {
+    opacity: 0;
+    transform: rotateX(-90deg);
+  }
+  50% {
+    transform: rotateX(-20deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+}
+
+@keyframes close-menu {
+  0% {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(-20deg);
+  }
+  100% {
+    opacity: 0;
+    transform: rotateX(-90deg);
   }
 }
