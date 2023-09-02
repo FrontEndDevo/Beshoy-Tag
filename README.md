@@ -65,3 +65,13 @@ I insist on being professional and competent in everything I do, and I strive to
   </li>  
   
 </ol>
+
+<h2>Contact Me</h2>
+<ul>
+<li>https://frontenddevo.github.io/Beshoy-Tag</li>
+<li>https://linkedin.com/in/Beshoy-Tag</li>
+<li>https://github.com/FrontEndDevo</li>
+<li>https://www.facebook.com/BeshoyTag1/</li>
+<li>mylinkacco@gmail.com</li>
+<li>+201276750611</li>
+</ul>
