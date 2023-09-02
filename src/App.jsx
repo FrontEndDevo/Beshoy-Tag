@@ -16,7 +16,7 @@ import oliver from "../src/assets/projects/oliver.png";
 // Add new project from here:
 const MAIN_PROJECTS = [
   {
-    id: "p1",
+    id: Math.random(),
     img: foodOrder,
     title: "Food Order",
     description:
@@ -26,7 +26,7 @@ const MAIN_PROJECTS = [
     preview: "https://food-delivery-b0655.web.app",
   },
   {
-    id: "p2",
+    id: Math.random(),
     img: flyingNotes,
     title: "Flying Notes",
     description:
@@ -36,7 +36,7 @@ const MAIN_PROJECTS = [
     preview: "https://frontenddevo.github.io/Flying-Notes/",
   },
   {
-    id: "p3",
+    id: Math.random(),
     img: beautifulNews,
     title: "Beautiful News",
     description:
@@ -46,7 +46,7 @@ const MAIN_PROJECTS = [
     preview: "https://beautiful-news.vercel.app",
   },
   {
-    id: "p4",
+    id: Math.random(),
     img: weBuild,
     title: "WEBUILD",
     description:
@@ -56,7 +56,7 @@ const MAIN_PROJECTS = [
     preview: "https://frontenddevo.github.io/webuild/",
   },
   {
-    id: "p5",
+    id: Math.random(),
     img: typingSpeedTest,
     title: "Typing Speed Test",
     description:
@@ -66,7 +66,7 @@ const MAIN_PROJECTS = [
     preview: "https://frontenddevo.github.io/Typing-Speed-Test/",
   },
   {
-    id: "p6",
+    id: Math.random(),
     img: todoList,
     title: "Todo List",
     description:
@@ -76,7 +76,7 @@ const MAIN_PROJECTS = [
     preview: "https://frontenddevo.github.io/Todo-List/",
   },
   {
-    id: "p7",
+    id: Math.random(),
     img: boundi,
     title: "Boundi",
     description:
@@ -86,7 +86,7 @@ const MAIN_PROJECTS = [
     preview: "https://frontenddevo.github.io/Bondi-Bootstrap/",
   },
   {
-    id: "p8",
+    id: Math.random(),
     img: oliver,
     title: "Oliver",
     description:
