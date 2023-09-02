@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import foodOrder from "../src/assets/projects/food-order.png";
 import flyingNotes from "../src/assets/projects/flying-notes.png";
 import beautifulNews from "../src/assets/projects/beautiful-news.png";
+import peboo from "./assets/projects/peboo.png";
 import weBuild from "../src/assets/projects/webuild.png";
 import typingSpeedTest from "../src/assets/projects/Typing-Speed-Test.png";
 import todoList from "../src/assets/projects/todo-list.png";
@@ -21,7 +22,7 @@ const MAIN_PROJECTS = [
     title: "Food Order",
     description:
       "Order healthy food from the most famous restaurants in the world, you can simply see our latest meals and choose what you want, the food will be prepared for you and delivered to you as soon as possible to enjoy a delicious and cheap",
-    technologies: "Reactjs & SASS",
+    technologies: "React.js & SASS",
     github: "https://github.com/FrontEndDevo/React-App-Food-Delivery",
     preview: "https://food-delivery-b0655.web.app",
   },
@@ -31,7 +32,7 @@ const MAIN_PROJECTS = [
     title: "Flying Notes",
     description:
       "Now you can easily record your notes in an online book, and of course, you can return in anytime to read, write, and edit your own notes.",
-    technologies: "Reactjs (Redux toolkit & React Routing) & SASS",
+    technologies: "React.js (Redux toolkit & React Routing) & SASS",
     github: "https://github.com/FrontEndDevo/Flying-Notes",
     preview: "https://frontenddevo.github.io/Flying-Notes/",
   },
@@ -41,9 +42,19 @@ const MAIN_PROJECTS = [
     title: "Beautiful News",
     description:
       "Our site includes all types of news like political, judicial, entertainment, sports and more. We present a continuous flow of links to articles organized from thousands of publishers and magazines.",
-    technologies: "Nextjs & Redux toolkit & SASS",
+    technologies: "Next.js & Redux toolkit & SASS",
     github: "https://github.com/FrontEndDevo/beautiful-news",
     preview: "https://beautiful-news.vercel.app",
+  },
+  {
+    id: Math.random(),
+    img: peboo,
+    title: "Peboo",
+    description:
+      "Peboo is a modern and responsive landing page template designed for business consultancies. Built using React.js, Peboo offers a sleek and professional design that helps showcase your consultancy services effectively.",
+    technologies: "React.js & TailwindCSS",
+    github: "https://github.com/FrontEndDevo/peboo",
+    preview: "https://frontenddevo.github.io/peboo/",
   },
   {
     id: Math.random(),
@@ -51,7 +62,7 @@ const MAIN_PROJECTS = [
     title: "WEBUILD",
     description:
       "Want to build your own building? Afraid of rising resource prices? Urgent and want to finish as soon as possible? You will find all the solutions to your problems with us.",
-    technologies: "Reactjs & TailwindCSS",
+    technologies: "React,js & TailwindCSS",
     github: "https://github.com/FrontEndDevo/webuild",
     preview: "https://frontenddevo.github.io/webuild/",
   },
