@@ -21,10 +21,12 @@ I insist on being professional and competent in everything I do, and I strive to
 
 <h3>Projects</h3>
 <ol>
-    <li>Beautiful News</li>
+  <ul>
+      <li>Beautiful News</li>
   <li>Our site includes all types of news like political, judicial, entertainment, sports and more. We present a continuous flow of links to articles organized from thousands of publishers and magazines.</li>
   <li>Nextjs & Redux toolkit & SASS</li>
   <li>https://beautiful-news.vercel.app/</li>
+  </ul>
 </ol>
 
 <ol>
