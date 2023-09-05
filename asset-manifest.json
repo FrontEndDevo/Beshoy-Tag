@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Beshoy-Tag/static/css/main.61ee2fed.css",
+    "main.js": "/Beshoy-Tag/static/js/main.295e6067.js",
+    "static/media/webuild.png": "/Beshoy-Tag/static/media/webuild.38b17f495d85be62fe15.png",
+    "static/media/boundi.png": "/Beshoy-Tag/static/media/boundi.0f5408c61409a44e0ca2.png",
+    "static/media/beautiful-news.png": "/Beshoy-Tag/static/media/beautiful-news.d393fcf35fb14fd46bf8.png",
+    "static/media/flying-notes.png": "/Beshoy-Tag/static/media/flying-notes.e584d7f9bf1acb7107a1.png",
+    "static/media/Beshoy_Tag.png": "/Beshoy-Tag/static/media/Beshoy_Tag.2e35c682a65a0fc7ff44.png",
+    "static/media/food-order.png": "/Beshoy-Tag/static/media/food-order.38d80f907894e99a59b4.png",
+    "static/media/Typing-Speed-Test.png": "/Beshoy-Tag/static/media/Typing-Speed-Test.09b2c5caa2e79629723d.png",
+    "static/media/todo-list.png": "/Beshoy-Tag/static/media/todo-list.6f21892b263dbda4614a.png",
+    "static/media/oliver.png": "/Beshoy-Tag/static/media/oliver.265e18d44cde28962f52.png",
+    "static/media/peboo.png": "/Beshoy-Tag/static/media/peboo.b784be21b00abb8814d0.png",
+    "static/media/Beshoy_Tag.pdf": "/Beshoy-Tag/static/media/Beshoy_Tag.a7cb9984ff71d8db4aa1.pdf",
+    "static/media/about.svg": "/Beshoy-Tag/static/media/about.5078abe2c21a98929b138d924faf3e6d.svg",
+    "static/media/sass.svg": "/Beshoy-Tag/static/media/sass.58b7b983fb6ca88ef000f6a4a67b1bf1.svg",
+    "static/media/react.svg": "/Beshoy-Tag/static/media/react.4ee8d0003d0f7f9ccea03ac4aa13fb99.svg",
+    "static/media/css3.svg": "/Beshoy-Tag/static/media/css3.dbd31fe14ec796185689723739441965.svg",
+    "static/media/nextjs.svg": "/Beshoy-Tag/static/media/nextjs.8f10b4cb8e3cabc6593db1264cb3bff3.svg",
+    "static/media/redux.svg": "/Beshoy-Tag/static/media/redux.04851e4f576287d685ab7afb5e4717a9.svg",
+    "static/media/typescript.svg": "/Beshoy-Tag/static/media/typescript.488c71009bd8fd3858119d44e4230925.svg",
+    "static/media/bootstrap5.svg": "/Beshoy-Tag/static/media/bootstrap5.bb5d7fd6ad99f573329d8b4f60fa02c3.svg",
+    "static/media/github.svg": "/Beshoy-Tag/static/media/github.b40b1c0378274f892133dea1253e8aa8.svg",
+    "static/media/javascript.svg": "/Beshoy-Tag/static/media/javascript.43e744a279a2adb2d549e76402f43593.svg",
+    "static/media/html5.svg": "/Beshoy-Tag/static/media/html5.115310285b7fd7194c7afea2c04ec0f7.svg",
+    "static/media/git.svg": "/Beshoy-Tag/static/media/git.c0ad6253313a0547812bfb9a9f0894d6.svg",
+    "static/media/tailwindcss.svg": "/Beshoy-Tag/static/media/tailwindcss.d84a6f369e7170891c4a19587ccf78e1.svg",
+    "index.html": "/Beshoy-Tag/index.html",
+    "main.61ee2fed.css.map": "/Beshoy-Tag/static/css/main.61ee2fed.css.map",
+    "main.295e6067.js.map": "/Beshoy-Tag/static/js/main.295e6067.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61ee2fed.css",
+    "static/js/main.295e6067.js"
+  ]
+}
