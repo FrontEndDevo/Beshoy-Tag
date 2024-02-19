@@ -1,7 +1,7 @@
 import { useContext, useEffect, useRef } from "react";
 import classes from "./Home.module.scss";
 import { init } from "ityped";
-import photo from "../../assets/me/Beshoy_Tag.png";
+import photo from "../../assets/me/Beshoy_Tag.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
@@ -60,8 +60,9 @@ const Home = () => {
       }`}
     >
       <div className={classes["developer-photo"]}>
-        <img src={photo} alt="developer" />
+        <img src={photo} alt="Beshoy Tag" />
       </div>
+
       <div className={classes["developer-details"]}>
         <div className={classes["developer-info"]}>
           <h3>Hi There, I'm</h3>
@@ -98,6 +99,7 @@ const Home = () => {
           <FontAwesomeIcon icon={faDownload} />
         </Link>
       </div>
+      
     </header>
   );
 };
