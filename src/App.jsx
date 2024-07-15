@@ -6,7 +6,8 @@ import Skills from "./components/Skills/Skills";
 import Portfolio from "./components/Portfolio/Portfolio";
 import foodOrder from "../src/assets/projects/food-order.png";
 import flyingNotes from "../src/assets/projects/flying-notes.png";
-import beautifulNews from "../src/assets/projects/beautiful-news.png";
+import BeautifulNews from "../src/assets/projects/beautiful-news.png";
+import EcobazarGrocery from "../src/assets/projects/ecobazar-grocery.png";
 import peboo from "./assets/projects/peboo.png";
 import weBuild from "../src/assets/projects/webuild.png";
 import typingSpeedTest from "../src/assets/projects/Typing-Speed-Test.png";
@@ -18,13 +19,23 @@ import oliver from "../src/assets/projects/oliver.png";
 const MAIN_PROJECTS = [
   {
     id: Math.random(),
-    img: foodOrder,
-    title: "Food Order",
+    img: BeautifulNews,
+    title: "Beautiful News",
     description:
-      "Order healthy food from the most famous restaurants in the world, you can simply see our latest meals and choose what you want, the food will be prepared for you and delivered to you as soon as possible to enjoy a delicious and cheap",
-    technologies: "React.js & SASS",
-    github: "https://github.com/FrontEndDevo/React-App-Food-Delivery",
-    preview: "https://food-delivery-b0655.web.app",
+      "Our site includes all types of news like political, judicial, entertainment, sports and more. We present a continuous flow of links to articles organized from thousands of publishers and magazines.",
+    technologies: "Next.js & Redux toolkit & SASS",
+    github: "https://github.com/FrontEndDevo/beautiful-news",
+    preview: "https://github.com/FrontEndDevo/beautiful-news",
+  },
+  {
+    id: Math.random(),
+    img: EcobazarGrocery,
+    title: "Ecobazar Grocery",
+    description:
+      "Organic Food Ecommerce Website, Ecobazar is a React.js application that offers a user-friendly interface, advanced product filtering, and comprehensive e-commerce functionality.",
+    technologies: "React.js & React-Router-Dom & Redux toolkit & TailwindCSS",
+    github: "https://github.com/FrontEndDevo/ecobazar-grocery",
+    preview: "ecobazar-grocery.vercel.app",
   },
   {
     id: Math.random(),
@@ -32,19 +43,19 @@ const MAIN_PROJECTS = [
     title: "Flying Notes",
     description:
       "Now you can easily record your notes in an online book, and of course, you can return in anytime to read, write, and edit your own notes.",
-    technologies: "React.js (Redux toolkit & React Routing) & SASS",
+    technologies: "React.js & React-Router-Dom & Redux toolkit & SASS",
     github: "https://github.com/FrontEndDevo/Flying-Notes",
     preview: "https://frontenddevo.github.io/Flying-Notes/",
   },
   {
     id: Math.random(),
-    img: beautifulNews,
-    title: "Beautiful News",
+    img: foodOrder,
+    title: "Food Order",
     description:
-      "Our site includes all types of news like political, judicial, entertainment, sports and more. We present a continuous flow of links to articles organized from thousands of publishers and magazines.",
-    technologies: "Next.js & Redux toolkit & SASS",
-    github: "https://github.com/FrontEndDevo/beautiful-news",
-    preview: "https://beautiful-news.vercel.app",
+      "Order healthy food from the most famous restaurants in the world, you can simply see our latest meals and choose what you want, the food will be prepared for you and delivered to you as soon as possible to enjoy a delicious and cheap",
+    technologies: "React.js & SASS",
+    github: "https://github.com/FrontEndDevo/React-App-Food-Delivery",
+    preview: "https://food-delivery-b0655.web.app",
   },
   {
     id: Math.random(),
