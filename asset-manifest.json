@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Beshoy-Tag/static/css/main.971d564a.css",
-    "main.js": "/Beshoy-Tag/static/js/main.79ecbf03.js",
+    "main.js": "/Beshoy-Tag/static/js/main.56bc340f.js",
     "static/media/webuild.png": "/Beshoy-Tag/static/media/webuild.38b17f495d85be62fe15.png",
     "static/media/boundi.png": "/Beshoy-Tag/static/media/boundi.0f5408c61409a44e0ca2.png",
     "static/media/beautiful-news.png": "/Beshoy-Tag/static/media/beautiful-news.d393fcf35fb14fd46bf8.png",
@@ -9,9 +9,10 @@
     "static/media/food-order.png": "/Beshoy-Tag/static/media/food-order.38d80f907894e99a59b4.png",
     "static/media/Typing-Speed-Test.png": "/Beshoy-Tag/static/media/Typing-Speed-Test.09b2c5caa2e79629723d.png",
     "static/media/todo-list.png": "/Beshoy-Tag/static/media/todo-list.6f21892b263dbda4614a.png",
+    "static/media/ecobazar-grocery.png": "/Beshoy-Tag/static/media/ecobazar-grocery.ce230e950530c4d9db09.png",
     "static/media/oliver.png": "/Beshoy-Tag/static/media/oliver.265e18d44cde28962f52.png",
     "static/media/peboo.png": "/Beshoy-Tag/static/media/peboo.b784be21b00abb8814d0.png",
-    "static/media/Beshoy_Tag.pdf": "/Beshoy-Tag/static/media/Beshoy_Tag.2c3cb0ce7a6b0e6b84bb.pdf",
+    "static/media/Beshoy_Tag.pdf": "/Beshoy-Tag/static/media/Beshoy_Tag.4b0c8d0a13fd188e2272.pdf",
     "static/media/Beshoy_Tag.webp": "/Beshoy-Tag/static/media/Beshoy_Tag.44f62c28919fd7832795.webp",
     "static/media/about.svg": "/Beshoy-Tag/static/media/about.5078abe2c21a98929b138d924faf3e6d.svg",
     "static/media/sass.svg": "/Beshoy-Tag/static/media/sass.58b7b983fb6ca88ef000f6a4a67b1bf1.svg",
@@ -28,10 +29,10 @@
     "static/media/tailwindcss.svg": "/Beshoy-Tag/static/media/tailwindcss.d84a6f369e7170891c4a19587ccf78e1.svg",
     "index.html": "/Beshoy-Tag/index.html",
     "main.971d564a.css.map": "/Beshoy-Tag/static/css/main.971d564a.css.map",
-    "main.79ecbf03.js.map": "/Beshoy-Tag/static/js/main.79ecbf03.js.map"
+    "main.56bc340f.js.map": "/Beshoy-Tag/static/js/main.56bc340f.js.map"
   },
   "entrypoints": [
     "static/css/main.971d564a.css",
-    "static/js/main.79ecbf03.js"
+    "static/js/main.56bc340f.js"
   ]
 }
