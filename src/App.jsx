@@ -35,7 +35,7 @@ const MAIN_PROJECTS = [
       "Organic Food Ecommerce Website, Ecobazar is a React.js application that offers a user-friendly interface, advanced product filtering, and comprehensive e-commerce functionality.",
     technologies: "React.js & React-Router-Dom & Redux toolkit & TailwindCSS",
     github: "https://github.com/FrontEndDevo/ecobazar-grocery",
-    preview: "ecobazar-grocery.vercel.app",
+    preview: "https://github.com/FrontEndDevo/ecobazar-grocery",
   },
   {
     id: Math.random(),
